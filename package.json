@@ -1,0 +1,21 @@
+{
+  "name": "node_imgur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "gulp-cli": "^2.0.1",
+    "mongodb": "^2.2.33"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
