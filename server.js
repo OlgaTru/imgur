@@ -2,8 +2,14 @@ const express     = require('express');
 const MongoClient = require('mongodb').MongoClient;
 const bodyParser  = require('body-parser');
 const db          = require('./config/db');
+const path        = require('path');
 
+//init app
 const app         = express();
+
+//load view engine
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
 
 const port = 8000;
 
